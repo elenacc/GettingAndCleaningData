@@ -86,4 +86,4 @@ head(dataAgrr)
 
 
 ### Exporting the data ###
-write.table(dataAggr, './FinalDataset.txt',row.names=TRUE,sep='\t')
+write.table(dataAggr, './FinalDataset.txt',row.names=FALSE,sep='\t')
